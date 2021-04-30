@@ -3,11 +3,11 @@ using namespace std;
 
 int main()
 {
-	int a = 10; // a ¼±¾ğ
-	int* ptr; // Æ÷ÀÎÅÍ ¼±¾ğ
-	ptr = &a; // ptr¿¡ aÀÇ ÁÖ¼Ò ´ëÀÔ
+	int a = 10; // a ì„ ì–¸
+	int* ptr; // í¬ì¸í„° ì„ ì–¸
+	ptr = &a; // ptrì— aì˜ ì£¼ì†Œ ëŒ€ì…
 
-	cout << "º¯¼ö aÀÇ ÁÖ¼Ò´Â : " << ptr << endl;
-	cout << "aÀÇ °ªÀº : " << a << endl;
+	cout << "ë³€ìˆ˜ aì˜ ì£¼ì†ŒëŠ” : " << ptr << endl;
+	cout << "aì˜ ê°’ì€ : " << *ptr << endl;
 	return 0;
 }
